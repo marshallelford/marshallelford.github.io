@@ -1,7 +1,10 @@
-ul {
+@font-face {
+    font-family: "Georgia";
+}
+
+#navigation_list {
     list-style-type: none;
-    background: #ff9999;
-    margin-bottom: 15px;
+    width: 100%;
 }
 
 li {
@@ -11,24 +14,19 @@ li {
 a {
     display: inline-block;
     text-decoration: none;
-    padding: 5px;
     color: #000000;
 }
 
-h1 {
-    font: helvetica;
-}
-
 a:hover {
-    color: #333333;
+    color: #424949;
 }
 
 .left_column {
-    width: 160px;
-    margin-right: 170px;
+    width: 50%;
+    float: left;
 }
 
 .right_column {
-    width: 160px;
+    width: 50%;
     float: right;
 }
