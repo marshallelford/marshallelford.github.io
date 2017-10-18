@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'MARK-SIMONSON-PROXIMA-NOVA-THIN';
-    src: url("./fonts/MARK-SIMONSON-PROXIMA-NOVA-THIN.otf");
+    src: url("../fonts/MARK-SIMONSON-PROXIMA-NOVA-THIN.otf");
 }
 
 @font-face {
     font-family: 'MARK-SIMONSON-PROXIMA-NOVA-ALT-REGULAR';
-    src: url("./fonts/MARK-SIMONSON-PROXIMA-NOVA-ALT-REGULAR.otf");
+    src: url("../fonts/MARK-SIMONSON-PROXIMA-NOVA-ALT-REGULAR.otf");
 }
 
 html, body {
@@ -28,7 +28,7 @@ nav a {
     margin-right: 20px;
 }
 
-a:hover {
+nav a:hover {
     color: #808080;
 }
 
