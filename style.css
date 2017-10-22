@@ -3,11 +3,6 @@
     src: url("./fonts/MARK-SIMONSON-PROXIMA-NOVA-THIN.otf");
 }
 
-@font-face {
-    font-family: 'MARK-SIMONSON-PROXIMA-NOVA-ALT-REGULAR';
-    src: url("./fonts/MARK-SIMONSON-PROXIMA-NOVA-ALT-REGULAR.otf");
-}
-
 html, body {
     padding: 0;
     margin: 0;
@@ -46,10 +41,16 @@ a:visited {
 }
 
 #title{
-    font-family:'MARK-SIMONSON-PROXIMA-NOVA-ALT-REGULAR';
+    font-family:'MARK-SIMONSON-PROXIMA-NOVA-THIN';
     text-align: center;
     font-size: 2.5vw;
     width: 100%;
+}
+
+#dog {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .info {
