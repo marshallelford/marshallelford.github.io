@@ -52,15 +52,26 @@ a:visited {
 }
 
 input[type=text] {
-    box-sizing: border-box;
-    border-radius: 2px;
+    box-shadow: 1px 1px 5px #888888;
+    border-radius: 3px;
+    border-style: hidden;
+    border-width: 1px;
     font-size: 16px;
     background-color: white;
-    background-image: url('searchicon.png');
-    background-position: 10px 10px; 
-    background-repeat: no-repeat;
-    padding: 12px 20px 12px 40px;
+    padding: 12px 20px 12px 15px;
     margin: 50px auto 0;
+    width: 40%;
+}
+
+input[type=text]:hover {
+    box-shadow: 2px 2px 5px #888888;
+}
+
+a.button {
+    appearance: button;
+    display: inline;
+    text-decoration: none;
+    color: initial;
 }
 
 #about{
@@ -72,6 +83,10 @@ input[type=text] {
     text-align: center;
     font-size: 2.5vw;
     width: 100%;
+}
+
+#information{
+    margin: 200px 0px 200px 0px;
 }
 
 #dog {
