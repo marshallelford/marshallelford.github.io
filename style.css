@@ -1,6 +1,11 @@
 @font-face {
     font-family: 'MARK-SIMONSON-PROXIMA-NOVA-THIN';
-    src: url("./fonts/MARK-SIMONSON-PROXIMA-NOVA-THIN.otf");
+    src: url("../marshallelford.github.io/fonts/MARK-SIMONSON-PROXIMA-NOVA-THIN.otf") format('truetype');
+}
+
+@font-face {
+    font-family: 'futura-medium-bt';
+    src: url("../marshallelford.github.io/fonts/futura-medium-bt.ttf") format('truetype');
 }
 
 html, body {
@@ -41,7 +46,7 @@ a:visited {
 }
 
 #title{
-    font-family:'MARK-SIMONSON-PROXIMA-NOVA-THIN';
+    font-family:'futura-medium-bt';
     text-align: center;
     font-size: 2.5vw;
     width: 100%;
