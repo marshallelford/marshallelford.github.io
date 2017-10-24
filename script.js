@@ -13,5 +13,5 @@ window.onload = function () {
         }
     }
     
-    document.getElementById("greeting").innerHTML = getGreeting(new Date());
+    document.getElementById("script").innerHTML = getGreeting(new Date());
 };

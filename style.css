@@ -1,9 +1,4 @@
 @font-face {
-    font-family: 'MARK-SIMONSON-PROXIMA-NOVA-THIN';
-    src: url("../marshallelford.github.io/fonts/MARK-SIMONSON-PROXIMA-NOVA-THIN.otf") format('truetype');
-}
-
-@font-face {
     font-family: 'futura-medium-bt';
     src: url("../marshallelford.github.io/fonts/futura-medium-bt.ttf") format('truetype');
 }
@@ -13,36 +8,63 @@ html, body {
     margin: 0;
 }
 
-nav {
-    text-align: center;
-    position: fixed;
-    width: 100%;
+nav ul li { 
+    list-style:none;
+    display: inline;
+}
+
+.leftHeader{
+    float: left;
+}
+
+.rightHeader{
+    float: right;
 }
 
 nav a {
-    font-family: 'MARK-SIMONSON-PROXIMA-NOVA-THIN';
-    display: inline-block;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #525356;
     text-decoration: none;
-    font-size: 20px;
-    margin-left: 20px;
+    font-size: 2vh;
     margin-right: 20px;
 }
 
 nav a:hover {
-    color: #808080;
+    text-decoration: underline;
 }
 
 a:visited {
-    color: black;
+    color: #525356;
 }
 
 #logo {
-    height: 40px;
-    width: 40x;
+    height: 10vh;
+    width: 40vx;
+    position: relative;
+    margin: 200px auto 0;
 }
 
-#home {
-    background-color: aliceblue
+.location {   
+    font-family:'futura-medium-bt';
+    font-size: 2.5vh;
+    position: absolute;
+    margin-left: 51%;
+}
+
+input[type=text] {
+    box-sizing: border-box;
+    border-radius: 2px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    margin: 50px auto 0;
+}
+
+#about{
+    margin: 500px auto 0;
 }
 
 #title{
@@ -58,10 +80,8 @@ a:visited {
     margin-right: auto;
 }
 
-.info {
-    font-family: "Courier New", Courier, monospace;
-    font-size:2.5vw;
-    width: 50%;
-    bottom:20%;
-    right:8%;
+#script{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
