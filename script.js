@@ -1,17 +1,20 @@
+/*jslint browser: true*/
+/*global $, jQuery*/
+
 window.onload = function () {
     "use strict";
-    var morning = "Good Morning!", afternoon = "Good Afternoon!", evening = "Good Evening!";
-  
-  
-    function getGreeting(date) {
-        if (date.getHours() < 12) {
-            return morning;
-        } else if (date.getHours() >= 12 && date.getHours() < 18) {
-            return afternoon;
-        } else {
-            return evening;
-        }
-    }
     
-    document.getElementById("script").innerHTML = getGreeting(new Date());
+    $('#aboutText').click(function () {
+        jQuery(this).text('close');
+        
+        if ($('#about').is(':hidden')) {
+            jQuery(this).text('Close');
+        } else {
+            jQuery(this).text('Who am I');
+        }
+        
+        $('#about').slideToggle(800);
+        
+        return false;
+    });
 };

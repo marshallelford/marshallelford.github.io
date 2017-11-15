@@ -1,64 +1,48 @@
 <!doctype html>
 <html lang="en">
+    
+<!-- 
+IDEAS:
+
+Gravity
+
+Update Resume
+
+-->
 
 <head>
     <title>Marshall Elford</title>
-    <meta charset="utf-8">
+    <meta charset="utf-8"> 
     <meta name="author" content="Marshall Elford">
     <meta name="description" content="My favourite website is www.something.com">
-    <meta name="keywords" content="Marshall Elford, Computer Engineer, Vancouver, Canada, UBC, 1997">
+    <meta name="keywords" content="Marshall Elford, Computer Engineer - Vancouver, Canada">
     <link rel="icon" href="../marshallelford.github.io/icon/iconME.ico">
     
     <!-- CSS and Javascript connections -->
     <link rel="stylesheet" href="style.css" />
     <script type="text/javascript" src="script.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 </head>
 
 <body>
-    <header>
-        <nav>
-            <ul>
-                <div class="leftHeader">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                </div>
-                <div class="rightHeader">
-                    <li><a href="../marshallelford.github.io/resume/Marshall-Elford-Resume-Oct2017.pdf">Resume</a></li>
-                    <li><a href="https://linkedin.com/in/marshallelford">LinkedIn</a></li>
-                    <li><a href="https://github.com/marshallelford">Github</a></li>
-                </div>
-            </ul>
-        </nav>
-    </header>
-    
-    <div id="home">
-        <center>
-            <a href="#home"><img id="logo" src="https://i.imgur.com/6IiIxRj.png"></a>
-            <figcaption class="location">Computer Engineer - Vancouver</figcaption>
-        </center>
+    <div id="name">
+        <h2>Marshall Elford</h2>
     </div>
     
-    <center>
-        <form>
-            <input type="text" name="search">
-        </form>
-
-        <br>
-        
-        <form action="http://google.com">
-            <input type="submit" value="Marshall Search" />
-        </form>
-    </center>
+    <div id="aboutLink" class="link">
+        <a href="#" id="aboutText">Who am I</a>
+    </div>
     
-    <div id="about"> 
-        <br>
-        <div id="title">
-            <p>About Me</p>
-        </div>
-        <div id="information">
-            <img id="dog" src="http://78.media.tumblr.com/b814675f13e648d20f307e94a5c1812d/tumblr_owzstgxZNt1qd11zvo1_r1_250.gif">
-            <div id="script"></div>
-        </div>
+    <div id="resumeLink" class="link">
+        <a href="../marshallelford.github.io/resume/Marshall-Elford-Resume-Oct2017.pdf">Resume</a>
+    </div>
+    
+    <div id="linkedinLink" class="link">
+        <a href="https://linkedin.com/in/marshallelford">LinkedIn</a>
+    </div>
+    
+    <div id="about" style="display: none;"> 
+        <h1>Marshall Elford<br>Vancouver - Canada<br>Computer Engineering<br>The University of British Columbia<br><br><br><u>Hire me!</u><br>marshall_elford@hotmail.com<br>or message me on LinkedIn</h1>
     </div>
 </body>
 
