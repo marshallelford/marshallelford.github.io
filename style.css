@@ -39,12 +39,19 @@ h1 {
     font-size: 16px;
     letter-spacing: 0.1em;
     line-height: 250%;
+    color: white;
 }
 
 h2 {
     font-size: 14px;
     letter-spacing: 0.2em;
     text-transform: uppercase;
+}
+
+h3 {
+    font-size: 16px;
+    letter-spacing: 0.1em;
+    line-height: 250%;
 }
 
 #name {
@@ -87,6 +94,49 @@ h2 {
     color: #555;
 }
 
+.hover {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    bottom: 0;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: none;
+}
+
+img {
+    display: inline;
+    margin: 0 auto;
+    height: 100%;
+    width: auto;
+}
+
+#imgLeft {
+    z-index: 1; 
+    top: 50%;
+    left: 50%;
+    margin-top: -200px;
+    margin-left: -700px;
+}
+
+#imgMid {
+    z-index: 1; 
+    top: 50%;
+    left: 50%;
+    margin-top: -200px;
+    margin-left: -200px;
+}
+
+#imgRight {
+    z-index: 1; 
+    top: 50%;
+    left: 50%;
+    margin-top: -200px;
+    margin-left: 300px;
+}
+
 #about{
     position: absolute;
     z-index: 4;
@@ -96,6 +146,10 @@ h2 {
     left: 35%;
     text-align: center;
     color: #555;
-    border-width:5px;  
-    border-style:groove;
+    border-style: none;
+}
+
+#about a{
+    color: #555;
+    border-bottom:1px solid #555;
 }

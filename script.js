@@ -4,6 +4,10 @@
 window.onload = function () {
     "use strict";
     
+    $("div.hover").each(function (index) {
+        $(this).delay(400 * index).fadeIn(1000);
+    });
+    
     $('#aboutText').click(function () {
         jQuery(this).text('close');
         
