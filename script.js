@@ -13,11 +13,11 @@ window.onload = function () {
         
         if ($('#about').is(':hidden')) {
             jQuery(this).text('Close');
+            $("#about").fadeIn(500);
         } else {
             jQuery(this).text('Who am I');
+            $("#about").fadeOut(500);
         }
-        
-        $('#about').slideToggle(800);
         
         return false;
     });
