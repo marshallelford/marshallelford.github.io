@@ -36,7 +36,7 @@ a {
 }
 
 h1 {
-    font-size: 16px;
+    font-size: 14px;
     letter-spacing: 0.1em;
     line-height: 250%;
     color: white;
@@ -95,55 +95,65 @@ h3 {
 }
 
 .hover {
-    width: 400px;
-    height: 400px;
     position: absolute;
+    width: 25%;
+    height: 50%;
     bottom: 0;
+    display: none;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
-    display: none;
+    transition: all 0.4s;
 }
 
 img {
     display: inline;
     margin: 0 auto;
     height: 100%;
-    width: auto;
+    width: 100%;
 }
 
 #imgLeft {
-    z-index: 1; 
-    top: 50%;
-    left: 50%;
-    margin-top: -200px;
-    margin-left: -700px;
+    z-index: 3; 
+    max-width: 100%;
+    max-height: 100%;  
+    position: absolute;
+    margin:auto;
+    top:0;
+    bottom:0;
+    left: 5%;
 }
 
 #imgMid {
     z-index: 1; 
-    top: 50%;
-    left: 50%;
-    margin-top: -200px;
-    margin-left: -200px;
+    max-width: 100%;
+    max-height: 100%;  
+    position: absolute;
+    margin:auto;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
 }
 
 #imgRight {
-    z-index: 1; 
-    top: 50%;
-    left: 50%;
-    margin-top: -200px;
-    margin-left: 300px;
+    z-index: 3; 
+    max-width: 100%;
+    max-height: 100%;  
+    position: absolute;
+    margin:auto;
+    top:0;
+    bottom:0;
+    right: 5%;
 }
 
 #about{
     position: absolute;
-    z-index: 4;
-    width: 30%;
-    height: 66%;
+    z-index: 2;
+    width: 100%;
+    height: 64%;
     bottom: 0px;
-    left: 35%;
     text-align: center;
     color: #555;
     border-style: none;
