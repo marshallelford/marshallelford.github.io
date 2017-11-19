@@ -28,6 +28,7 @@ a {
     padding-bottom: 5px;
     border-bottom:1px solid #555;
     text-transform: lowercase;
+    animation:         FADE 1s ease-in-out normal;
 }
 
 .link a:hover {
@@ -50,6 +51,7 @@ h2 {
     width: 300px;
     text-align: left;
     color: #555;
+    animation:         FADE 1s ease-in-out normal;
 }
 
 #aboutLink {
@@ -88,7 +90,6 @@ h2 {
     width: 25vw;
     height: 25vw;
     bottom: 0;
-    display: none;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
@@ -112,6 +113,7 @@ img {
     top:0;
     bottom:0;
     left: 5%;
+    animation:         FADE 3s ease-in-out normal;
 }
 
 #imgMid {
@@ -124,6 +126,7 @@ img {
     bottom:0;
     left:0;
     right:0;
+    animation:         FADE 3.5s ease-in-out normal;
 }
 
 #imgRight {
@@ -135,13 +138,13 @@ img {
     top:0;
     bottom:0;
     right: 5%;
+    animation:         FADE 4s ease-in-out normal;
 }
 
 #about{
     letter-spacing: 0.1em;
     font-size: 1.2vw;
     line-height: 250%;
-    z-index: 999;
 }
 
 #aboutName {
@@ -151,6 +154,7 @@ img {
     top: 49%;
     left: 12%;
     color: white;
+    animation:         FADE 0.5s ease-in-out normal;
 }
 
 #aboutLocation {
@@ -160,6 +164,7 @@ img {
     top: 49%;
     left: 43%;
     color: white;
+    animation:         FADE 0.5s ease-in-out normal;
 }
 
 #aboutSchool {
@@ -167,9 +172,10 @@ img {
     position: absolute;
     text-align: center;
     margin:auto;
-    top: 44%;
-    right: 6.5%;
+    top: 49%;
+    right: 8.5%;
     color: white;
+    animation:         FADE 0.5s ease-in-out normal;
 }
 
 #aboutHireMe {
@@ -184,9 +190,16 @@ img {
     font-size: 16px;
     color: #555;
     line-height: 150%;
+    animation:         FADE 2s ease-in-out normal;
 }
 
 #about a{
     color: #555;
     border-bottom:1px solid #555;
+}
+
+@keyframes FADE {
+  0%   { opacity:0; }
+  50%   { opacity:0; }
+  100%   { opacity:1;}
 }
