@@ -154,6 +154,11 @@ img {
     top: 49%;
     left: 12%;
     color: #fff;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000; 
     animation:         FADE 0.5s ease-in-out normal;
 }
 
@@ -163,6 +168,7 @@ img {
     margin:auto;
     top: 49%;
     left: 43%;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
     animation:         FADE 0.5s ease-in-out normal;
 }
 
@@ -174,6 +180,11 @@ img {
     top: 49%;
     right: 8.5%;
     color: #fff;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000; 
     animation:         FADE 0.5s ease-in-out normal;
 }
 
