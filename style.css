@@ -1,0 +1,208 @@
+@font-face {
+    font-family: 'futura-medium-bt';
+    src: url("../marshallelford.github.io/fonts/futura-medium-bt.ttf") format('truetype');
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    width: 100%;
+    height: 100%;
+}
+
+::selection {
+  background: #64f5aa;
+}
+
+a {
+    text-decoration: none;
+}
+
+.link a{
+    transition: 0.4s;
+    font-size: 14px;
+    letter-spacing: 0.2em;
+    font-weight: bold;
+    color: #555;
+    padding-bottom: 5px;
+    border-bottom:1px solid #555;
+    text-transform: lowercase;
+    animation:         FADE 1s ease-in-out normal;
+}
+
+.link a:hover {
+    transition: 0.1s;
+    border-bottom: 1px solid rgba(255,255,255,0);
+}
+
+h2 {
+    font-size: 14px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}
+
+#name {
+    position: fixed;
+    z-index: 5;
+    height: 40px;
+    top: 40px;
+    left: 50px;
+    width: 300px;
+    text-align: left;
+    color: #555;
+    animation:         FADE 1s ease-in-out normal;
+}
+
+#aboutLink {
+    position: fixed;
+    z-index: 5;
+    height: 40px;
+    top: 40px;
+    right: 50px;
+    width: 300px;
+    text-align: right;
+    color: #555;
+}
+
+#linkedinLink {
+    position: fixed;
+    z-index: 5;
+    width: 200px;
+    bottom: 50px;
+    left: 50px;
+    text-align: left;
+    color: #555;
+}
+
+#githubLink {
+    position: fixed;
+    z-index: 5;
+    width: 200px;
+    bottom: 50px;
+    right: 50px;
+    text-align: right;
+    color: #555;
+}
+
+.hover {
+    position: absolute;
+    width: 25vw;
+    height: 25vw;
+    bottom: 0;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: all 0.4s;
+}
+
+img {
+    display: inline;
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+}
+
+#imgLeft {
+    z-index: 1; 
+    max-width: 100%;
+    max-height: 100%;  
+    position: absolute;
+    margin:auto;
+    top:0;
+    bottom:0;
+    left: 5%;
+    animation:         FADE 3s ease-in-out normal;
+}
+
+#imgMid {
+    z-index: 1; 
+    max-width: 100%;
+    max-height: 100%;  
+    position: absolute;
+    margin:auto;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    animation:         FADE 3.5s ease-in-out normal;
+}
+
+#imgRight {
+    z-index: 1; 
+    max-width: 100%;
+    max-height: 100%;  
+    position: absolute;
+    margin:auto;
+    top:0;
+    bottom:0;
+    right: 5%;
+    animation:         FADE 4s ease-in-out normal;
+}
+
+#about{
+    letter-spacing: 0.1em;
+    font-size: 1.2vw;
+    line-height: 250%;
+}
+
+#aboutName {
+    z-index: 3;
+    position: absolute;
+    margin:auto;
+    top: 49%;
+    left: 12%;
+    color: #fff;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; 
+    animation:         FADE 0.5s ease-in-out normal;
+}
+
+#aboutLocation {
+    z-index: 3;
+    position: absolute;
+    margin:auto;
+    top: 49%;
+    left: 43%;
+    color: #fff;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; 
+    animation:         FADE 0.5s ease-in-out normal;
+}
+
+#aboutSchool {
+    z-index: 3;
+    position: absolute;
+    text-align: center;
+    margin:auto;
+    top: 49%;
+    right: 8.5%;
+    color: #fff;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; 
+    animation:         FADE 0.5s ease-in-out normal;
+}
+
+#aboutHireMe {
+    max-width: 100%;
+    max-height: 100%;  
+    position: absolute;
+    text-align: center;
+    margin:auto;
+    bottom: 2%;
+    left: 0;
+    right: 0;
+    font-size: 16px;
+    color: #555;
+    line-height: 150%;
+    animation:         FADE 2s ease-in-out normal;
+}
+
+#about a{
+    color: #555;
+    border-bottom:1px solid #555;
+}
+
+@keyframes FADE {
+  0%   { opacity:0; }
+  50%   { opacity:0; }
+  100%   { opacity:1;}
+}
