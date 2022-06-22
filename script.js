@@ -11,7 +11,7 @@ window.onload = function () {
             jQuery(this).text('Close');
             document.getElementById("about").style.display = "block";
         } else {
-            jQuery(this).text('Who am I');
+            jQuery(this).text('who am i');
             document.getElementById("about").style.display = "none";
         }
         
